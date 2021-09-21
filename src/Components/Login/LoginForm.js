@@ -1,12 +1,12 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 const LoginForm = () => {
   const [username, setUsername] = React.useState('');
   const [password, setPassword] = React.useState('');
 
   async function handleSubmit(event) {
-    event.PreventDefault();
+    event.preventDefault();
     const response = await fetch('https://dogsapi.origamid.dev/json/jwt-auth/v1/token', {
       method: 'POST',
       headers: {
