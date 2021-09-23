@@ -11,10 +11,12 @@ import stylesBtn from '../Forms/Button.module.css';
 const LoginForm = () => {
   const username = useForm();
   const password = useForm();
+
   const { userLogin, error, loading } = React.useContext(UserContext);
 
   async function handleSubmit(event) {
     event.preventDefault();
+
     if (username.validate() && password.validate()) {
       userLogin(username.value, password.value);
     }
@@ -33,14 +35,18 @@ const LoginForm = () => {
         )}
         <Error error={error} />
       </form>
-      <Link className={styles.lost} to="/login/lost">Esqueceu a senha?</Link>
+      <Link className={styles.lost} to="/login/lost">
+        Esqueceu a senha?
+      </Link>
       <div className={styles.create}>
         <h2 className={styles.subtitle}>Cadastre-se</h2>
         <p>Ainda não possui conta? Cadastre-se no site.</p>
-        <Link className={stylesBtn.button} to="/login/create">Cadastro</Link>
+        <Link className={stylesBtn.button} to="/login/create">
+          Cadastro
+        </Link>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default LoginForm
+export default LoginForm;

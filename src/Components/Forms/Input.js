@@ -19,4 +19,4 @@ const Input = ({ label, type, name, value, onChange, error, onBlur }) => {
   )
 }
 
-export default Input
+export default Input;

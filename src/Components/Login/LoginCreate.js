@@ -1,16 +1,17 @@
 import React from 'react';
 import Input from '../Forms/Input';
 import Button from '../Forms/Button';
+import Error from '../Helper/Error';
 import useForm from '../../Hooks/useForm';
 import { USER_POST } from '../../api';
 import { UserContext } from '../../Contexts/UserContext';
 import useFetch from '../../Hooks/useFetch';
-import Error from '../Helper/Error';
 
 const LoginCreate = () => {
   const username = useForm();
   const email = useForm('email');
   const password = useForm('password');
+
   const { userLogin } = React.useContext(UserContext);
   const { loading, error, request } = useFetch();
 
@@ -19,12 +20,10 @@ const LoginCreate = () => {
     const { url, options } = USER_POST({
       username: username.value,
       email: email.value,
-      password: password.value
+      password: password.value,
     });
     const { response } = await request(url, options);
-    if (response.ok) {
-      userLogin(username.value, password.value);
-    }
+    if (response.ok) userLogin(username.value, password.value);
   }
 
   return (
@@ -42,7 +41,7 @@ const LoginCreate = () => {
         {error && <Error error={error} />}
       </form>
     </section>
-  )
-}
+  );
+};
 
-export default LoginCreate
+export default LoginCreate;
