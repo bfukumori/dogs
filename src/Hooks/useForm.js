@@ -7,8 +7,12 @@ const types = {
   },
   password: {
     regex: /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[$*&@#])[0-9a-zA-Z$*&@#]{8,}$/,
-    message: "Mínimo de oito caracteres, pelo menos, uma letra maiúscula, uma letra minúscula, um número e um caractere especial."
+    message: "Mínimo de oito caracteres, pelo menos, uma letra maiúscula, uma letra minúscula, um número e um caractere especial.",
   },
+  number: {
+    regex: /^\d+$/,
+    message: "Utilize números apenas."
+  }
 };
 
 const useForm = (type) => {
