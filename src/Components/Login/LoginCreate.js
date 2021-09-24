@@ -3,8 +3,8 @@ import Input from '../Forms/Input';
 import Button from '../Forms/Button';
 import Error from '../Helper/Error';
 import useForm from '../../Hooks/useForm';
-import { USER_POST } from '../../api';
-import { UserContext } from '../../Contexts/UserContext';
+import { USER_POST } from '../../Api';
+import { UserContext } from '../../UserContext';
 import useFetch from '../../Hooks/useFetch';
 
 const LoginCreate = () => {
@@ -38,7 +38,7 @@ const LoginCreate = () => {
         ) : (
           <Button>Cadastrar</Button>
         )}
-        {error && <Error error={error} />}
+        <Error error={error} />
       </form>
     </section>
   );

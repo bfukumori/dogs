@@ -6,7 +6,7 @@ const Button = ({ children, ...props }) => {
     <button {...props} className={styles.button}>
       {children}
     </button>
-  )
-}
+  );
+};
 
 export default Button;
