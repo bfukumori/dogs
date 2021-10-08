@@ -24,7 +24,7 @@ const PhotoDelete = ({ id }) => {
         </button>
       ) : (
         <button onClick={handleClick} className={styles.delete}>
-          Delete
+          Deletar
         </button>)}
     </>
   )
