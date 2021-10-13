@@ -11,7 +11,7 @@
     "react-dom": "^16.13.1",
     "react-router-dom": "^6.0.0-beta.0",
     "react-scripts": "^4.0.3",
-    "victory": "^35.0.3"
+    "victory": "^35.11.4"
   },
   "scripts": {
     "start": "react-scripts start",
