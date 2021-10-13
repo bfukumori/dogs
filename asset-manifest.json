@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.713af3e8.chunk.css",
+    "main.js": "/static/js/main.13e31c84.chunk.js",
+    "main.js.map": "/static/js/main.13e31c84.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0e6693d5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0e6693d5.js.map",
+    "static/js/2.79a52366.chunk.js": "/static/js/2.79a52366.chunk.js",
+    "static/js/2.79a52366.chunk.js.map": "/static/js/2.79a52366.chunk.js.map",
+    "static/js/3.881c4c1e.chunk.js": "/static/js/3.881c4c1e.chunk.js",
+    "static/js/3.881c4c1e.chunk.js.map": "/static/js/3.881c4c1e.chunk.js.map",
+    "static/css/4.ee32e137.chunk.css": "/static/css/4.ee32e137.chunk.css",
+    "static/js/4.0a0e8429.chunk.js": "/static/js/4.0a0e8429.chunk.js",
+    "static/js/4.0a0e8429.chunk.js.map": "/static/js/4.0a0e8429.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/4.ee32e137.chunk.css.map": "/static/css/4.ee32e137.chunk.css.map",
+    "static/css/main.713af3e8.chunk.css.map": "/static/css/main.713af3e8.chunk.css.map",
+    "static/js/3.881c4c1e.chunk.js.LICENSE.txt": "/static/js/3.881c4c1e.chunk.js.LICENSE.txt",
+    "static/media/adicionar.2fe277f9.svg": "/static/media/adicionar.2fe277f9.svg",
+    "static/media/dogs-footer.9c77af3a.svg": "/static/media/dogs-footer.9c77af3a.svg",
+    "static/media/dogs.69bf6d22.svg": "/static/media/dogs.69bf6d22.svg",
+    "static/media/enviar.1112bddc.svg": "/static/media/enviar.1112bddc.svg",
+    "static/media/estatisticas.c69dd1e1.svg": "/static/media/estatisticas.c69dd1e1.svg",
+    "static/media/feed.b8b13312.svg": "/static/media/feed.b8b13312.svg",
+    "static/media/Login.module.css": "/static/media/login.07d71f5b.jpg",
+    "static/media/sair.a1917210.svg": "/static/media/sair.a1917210.svg",
+    "static/media/Header.module.css": "/static/media/usuario.6d65a298.svg",
+    "static/media/PhotoContent.module.css": "/static/media/visualizacao-black.ee94fd3d.svg",
+    "static/media/FeedPhotosItem.module.css": "/static/media/visualizacao.09cd5578.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0e6693d5.js",
+    "static/js/3.881c4c1e.chunk.js",
+    "static/css/main.713af3e8.chunk.css",
+    "static/js/main.13e31c84.chunk.js"
+  ]
+}
