@@ -30,6 +30,4 @@ $ npm i
 # Start the project
 $ npm start
 ```
-The app will be available for access on your browser at http://localhost:3000/dogs
-
-OBS: If you intend to serve this project on Github Pages like I did you need to change the <BrowserRouter> to <HashRouter> in App.js to make it work correctly.
+O app estará disponível em http://localhost:3000/dogs.
