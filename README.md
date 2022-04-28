@@ -12,6 +12,7 @@ Durante o curso de React da Origamid, construimos uma rede social para fotos de 
 
 - [React](https://pt-br.reactjs.org/)
 - [React Router](https://reactrouter.com/)
+- [JWT](https://jwt.io/)
 
 ## 🚀 Getting started
 
